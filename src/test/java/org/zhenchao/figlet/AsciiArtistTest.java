@@ -12,7 +12,7 @@ public class AsciiArtistTest {
     @Test
     public void getAsciiArt() {
         for (final FontType fontType : FontType.values()) {
-            String art = AsciiArtist.getAsciiArt("success", fontType);
+            String art = AsciiArtist.getAsciiArt("flglet for java", fontType);
             System.out.println(fontType.getName() + "\n" + art);
         }
     }
